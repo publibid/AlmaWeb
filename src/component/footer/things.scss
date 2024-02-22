@@ -1,0 +1,55 @@
+// Things.scss
+.things {
+    margin: 40px 0; // Adjusted margin for better spacing on mobile
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    .listheading {
+margin-top: 32px;
+margin-bottom: 12px;
+
+
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+       // Adjusted font weight for better readability
+
+      font-size: 17px;
+      text-wrap: balance;
+      margin-top: 2rem;
+
+      margin-bottom: 0.75rem;
+      position: relative;
+      margin: 0;
+      box-sizing: border-box;
+      border: 0 solid;
+    --tw-text-opacity: 1;
+    color: rgb(var(--color-black)/var(--tw-text-opacity));
+    font-weight: 500;
+  
+    }
+  
+    .list {
+      font-size: 15px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgba(32, 30, 30, 0.865);
+      text-wrap: pretty;
+      box-sizing: border-box;
+    }
+  }
+  
+  // Media query for smaller screens (adjust max-width as needed)
+  @media screen and (max-width: 768px) {
+    .things {
+      margin: 20px 0; // Adjusted margin for better spacing on smaller screens
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+      .listheading {
+        font-size: 18px; // Adjusted font size for smaller screens
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+  
+      .list {
+        font-size: 14px; // Adjusted font size for smaller screens
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    }
+  }
+  

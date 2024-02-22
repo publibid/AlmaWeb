@@ -1,0 +1,146 @@
+// home.scss
+
+.maincontainer {
+    width: 100vw;
+    display: flex;
+    justify-content: left;
+
+    .container {
+        max-width: 36rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 20;
+
+        position: sticky;
+        padding-left: 1rem;
+    padding-right: 1rem;
+        padding-bottom: 50px;
+
+        .logoBlock {
+            margin: 8rem 0;
+            display: flex;
+            align-items: center;
+
+            .logo {
+                width: 40px;
+            }
+
+            .logotext {
+                
+
+                &:before {
+                    content: "AI assistant for ";
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-feature-settings: "ss02" on;
+                    --tw-text-opacity: 1;
+                    font-weight: 500;
+    color: rgb(var(--color-black)/var(--tw-text-opacity));
+    letter-spacing: -.02em;
+    line-height: 1.1;
+    font-size: clamp(1.9rem,6vw,40px);
+
+
+                }
+
+                &:after {
+                    content: " child welfare";
+                white-space: nowrap;
+                font-feature-settings: "ss02" on;
+                letter-spacing: -.02em;
+
+                box-sizing: border-box;
+                font-size: clamp(1.9rem,6vw,40px);
+                --tw-text-opacity: 1;
+                color: rgb(var(--color-black)/var(--tw-text-opacity));
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    background: rgb(0,25,148);
+background: linear-gradient(100deg, rgba(0,25,148,1) 0%, rgba(32,72,212,1) 83%);
+                    -webkit-background-clip: text;
+                    color: transparent;
+                    line-height: 1.1;
+                   
+                }
+            }
+        }
+
+        .heading {
+            padding: 10px;
+            display: flex;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+
+        .heading span {
+            font-feature-settings: "ss02" on;
+            --tw-text-opacity: 1;
+    color: rgb(var(--color-black)/var(--tw-text-opacity));
+    letter-spacing: -.02em;
+    line-height: 1.1;
+    font-size: clamp(1.6rem,6vw,36px);
+
+    text-wrap: pretty;
+    box-sizing: border-box;
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+            
+        }
+    }
+
+    .btn {
+        width: 150px;
+        height: 20px;
+        border: 2px solid rgba(226, 226, 226, 0.667);
+        font-size: 15px;
+        margin-left: 36px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        align-items: center;
+        margin-bottom: 100px;
+        
+
+        border-radius: 10px;
+        
+
+
+
+        padding: 1rem;
+        padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-color: rgb(var(--color-black)/.1);
+    border-width: 1px;
+    border-radius: 0.5rem;
+    color: #000;
+    text-decoration:  none;
+
+    }
+
+    .footer {
+        font-size: 11.5px;
+        margin-left: 36px;
+        font-family:"Jetbrains mono", monospace;
+        text-underline-offset: 2px;
+        text-decoration-thickness: 1px;
+        text-decoration-color: rgb(var(--color-black)/.2);
+        --tw-text-opacity: 1;
+        color: rgb(var(--color-body)/var(--tw-text-opacity));
+        box-sizing: border-box;
+    }
+
+    .footer a {
+        text-decoration: none;
+        margin-left: 10px;
+        cursor: pointer;
+        color: #000;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .footer img {
+        width: 20px;
+        
+    }
+}
